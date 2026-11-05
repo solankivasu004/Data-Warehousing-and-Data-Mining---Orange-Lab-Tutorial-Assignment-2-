@@ -1,0 +1,4 @@
+Cluster,Size,Description,Key_stat
+C1,264,"Everyday low-priced items, mostly Dairy and Produce",mean UnitPrice 2.08; 34.1% high sales
+C2,77,Items bought in large baskets,mean BasketItems 4.66; 53.2% high sales
+C3,59,"Premium items, mostly Beverages and Grocery",mean UnitPrice 5.56; 100% high sales

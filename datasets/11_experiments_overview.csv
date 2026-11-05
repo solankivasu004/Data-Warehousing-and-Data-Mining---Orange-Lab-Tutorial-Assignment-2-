@@ -1,0 +1,10 @@
+Experiment,Title,Aim,Workflow,Key_result
+1,Data Cleaning,Handle missing and invalid values,File -> Python Script -> Impute -> Data Table,"3 missing values filled, Juice price 99.99 corrected to 2.6; 400 rows, no missing data; negative quantity (-2 Shampoo, T1013) kept as genuine return"
+2,Data Reduction,Reduce attributes while keeping target,File -> Select Columns -> Data Table,"12 attributes reduced to 5 features (Store, Category, Quantity, UnitPrice, BasketItems) + target SalesLevel"
+3,Data Transformation,Normalize numeric data to common scale,File -> Normalize -> Data Table,"Min-max to [0,1]; e.g. Quantity 2 -> 0.571, UnitPrice 3.7 -> 0.475, TotalSales 7.4 -> 0.457"
+4,Association Rules (Apriori),Find frequent itemsets and rules,File -> Select Columns -> Pivot Table -> Association Rules -> Data Table,"46 itemsets, 37 rules; top rule Chips AND Rice => Pasta (support 0.061, confidence 0.889, lift 7.76)"
+5,Statistical Analysis,Descriptive statistics and distributions,File -> Feature Statistics / Distributions / Box Plot,"Mean Quantity 1.84, mean UnitPrice 2.67, mean TotalSales 4.95, avg basket 3.25 items"
+6,Regression,Predict TotalSales and evaluate models,File -> Select Columns -> Linear Regression / Random Forest / kNN -> Test and Score,"Random Forest best: RMSE 0.952, MAE 0.198, R2 0.953 (10-fold CV)"
+7,Outlier Analysis,Identify unusual observations,File -> Select Columns -> Outliers -> Scatter Plot / Data Table,40 of 400 flagged (10%); all 16 Coffee lines flagged; uncorrected 99.99 Juice would be rank 1 outlier
+8,K-Means (k=3),Group line items into clusters,File -> Select Columns -> Normalize -> k-Means -> Scatter Plot / Data Table,Clusters 264 / 77 / 59; silhouette 0.423
+9,Simple K-Means (k=2) classes-to-clusters,Compare clusters with SalesLevel,File -> Select Columns -> Normalize -> k-Means -> Pivot Table / Data Table,"Clusters 87 / 313; 175 of 400 (43.75%) incorrectly clustered; basket size separates clusters, not SalesLevel"

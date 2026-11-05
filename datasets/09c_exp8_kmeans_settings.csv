@@ -1,0 +1,7 @@
+setting,value
+clusters,3
+initialization,KMeans++
+re_runs,10
+max_iterations,300
+silhouette_score,0.423
+input_attributes,"Quantity, UnitPrice, TotalSales, BasketItems (normalized to [0,1])"

@@ -1,0 +1,21 @@
+Row,SalesLevel,Store,Category,Quantity,UnitPrice,BasketItems,TotalSales
+1,low,Store B,Produce,2,1.2,3,2.4
+2,low,Store B,Produce,3,0.8,3,2.4
+3,low,Store B,Beverages,1,2.6,3,2.6
+4,low,Store B,Bakery,1,1.8,3,1.8
+5,low,Store B,Dairy,1,3.2,3,3.2
+6,high,Store B,Dairy,2,3.7,3,7.4
+7,high,Store A,Grocery,1,5.5,3,5.5
+8,low,Store A,Dairy,1,2.5,3,2.5
+9,low,Store A,Bakery,1,1.8,3,1.8
+10,low,Store C,Household,1,1.4,2,1.4
+11,high,Store C,Household,1,4.8,2,4.8
+12,high,Store C,Snacks,3,1.6,3,4.8
+13,low,Store C,Snacks,1,2.3,3,2.3
+14,low,Store C,Beverages,1,2.6,3,2.6
+15,low,Store A,Produce,1,1.2,3,1.2
+16,low,Store A,Produce,1,0.8,3,0.8
+17,high,Store A,Beverages,3,2.6,3,7.8
+18,high,Store A,Grocery,1,5.5,3,5.5
+19,high,Store A,Grocery,2,2.1,3,4.2
+20,low,Store A,Snacks,1,1.6,3,1.6

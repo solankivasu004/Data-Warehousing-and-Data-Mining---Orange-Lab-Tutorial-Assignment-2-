@@ -1,0 +1,15 @@
+Row,SalesLevel,Product,Quantity_before,UnitPrice_before,TotalSales_before,Quantity_normalized,UnitPrice_normalized,TotalSales_normalized
+1,low,Apples,2,1.2,2.4,0.571,0.066,0.323
+2,low,Bananas,3,0.8,2.4,0.714,0,0.323
+3,low,Juice,1,2.6,2.6,0.429,0.295,0.328
+4,low,Bread,1,1.8,1.8,0.429,0.164,0.306
+5,low,Eggs,1,3.2,3.2,0.429,0.393,0.344
+6,high,Cheese,2,3.7,7.4,0.571,0.475,0.457
+7,high,Rice,1,5.5,5.5,0.429,0.77,0.406
+8,low,Milk,1,2.5,2.5,0.429,0.279,0.325
+9,low,Bread,1,1.8,1.8,0.429,0.164,0.306
+10,low,Soap,1,1.4,1.4,0.429,0.098,0.296
+11,high,Shampoo,1,4.8,4.8,0.429,0.656,0.387
+12,high,Chips,3,1.6,4.8,0.714,0.131,0.387
+13,low,Chocolate,1,2.3,2.3,0.429,0.246,0.32
+14,low,Juice,1,2.6,2.6,0.429,0.295,0.328

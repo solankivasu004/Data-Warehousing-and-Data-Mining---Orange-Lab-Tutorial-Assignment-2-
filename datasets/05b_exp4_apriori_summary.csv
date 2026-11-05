@@ -1,0 +1,11 @@
+property,value
+basket_matrix,131 transactions x 16 products
+minimal_support,5% (at least 7 of 131 baskets)
+minimal_confidence,50%
+max_rule_length,3
+frequent_itemsets_total,46
+single_item_itemsets,16
+pair_itemsets,24
+triple_itemsets,6
+rules_found,37
+rules_shown_in_report,16 highest by lift

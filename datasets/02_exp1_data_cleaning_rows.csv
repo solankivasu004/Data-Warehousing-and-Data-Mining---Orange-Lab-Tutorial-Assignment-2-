@@ -1,0 +1,9 @@
+Stage,Row,TransactionID,Date,Store,CustomerID,Product,Category,Quantity,UnitPrice,TotalSales,PaymentMethod,Fix_applied
+Before,25,T1009,2026-03-22,Store D,,Bread,Bakery,1,1.8,1.8,Card,
+Before,89,T1030,2026-04-19,Store A,C043,Milk,Dairy,3,2.5,7.5,,
+Before,113,T1037,2026-03-30,Store D,C066,Juice,Beverages,1,99.99,99.99,UPI,
+Before,207,T1068,2026-01-14,Store B,C039,Tea,,2,4.2,8.4,UPI,
+After,25,T1009,2026-03-22,Store D,C083,Bread,Bakery,1,1.8,1.8,Card,CustomerID copied from same TransactionID
+After,89,T1030,2026-04-19,Store A,C043,Milk,Dairy,3,2.5,7.5,Cash,PaymentMethod copied from same TransactionID
+After,113,T1037,2026-03-30,Store D,C066,Juice,Beverages,1,2.6,2.6,UPI,UnitPrice corrected 99.99 -> 2.6; TotalSales recomputed
+After,207,T1068,2026-01-14,Store B,C039,Tea,Beverages,2,4.2,8.4,UPI,Category imputed (model-based tree on Product)

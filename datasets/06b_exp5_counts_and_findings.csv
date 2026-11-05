@@ -1,0 +1,16 @@
+group,item,value
+lines_per_store,Store A,121
+lines_per_store,Store D,103
+lines_per_store,Store C,98
+lines_per_store,Store B,78
+payment_method_lines,Cash,144
+payment_method_lines,UPI,143
+payment_method_lines,Card,113
+SalesLevel_lines,high,190
+SalesLevel_lines,low,210
+unit_price_median_by_class,high,3.2
+unit_price_median_by_class,low,1.8
+category,Dairy lines,104
+category,Dairy revenue,549.6
+category,Grocery median line value (highest),5.5
+category,Produce median line value (lowest),1.2

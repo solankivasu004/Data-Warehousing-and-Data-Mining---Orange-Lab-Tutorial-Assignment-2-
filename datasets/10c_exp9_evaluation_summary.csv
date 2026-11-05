@@ -1,0 +1,5 @@
+metric,value
+k,2
+initialization,"random, single run"
+incorrectly_clustered_instances,175 of 400
+incorrectly_clustered_percent,43.75

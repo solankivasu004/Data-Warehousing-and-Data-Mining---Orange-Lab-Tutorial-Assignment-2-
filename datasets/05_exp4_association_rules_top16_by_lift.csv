@@ -1,0 +1,17 @@
+Rank,Support,Confidence,Coverage,Lift,Leverage,Antecedent,Consequent
+1,0.061,0.889,0.069,7.76,0.053,Chips AND Rice,Pasta
+2,0.061,0.533,0.115,7.76,0.053,Pasta,Chips AND Rice
+3,0.061,0.889,0.069,5.54,0.05,Chips AND Pasta,Rice
+4,0.061,0.8,0.076,5.24,0.049,Cheese AND Milk,Butter
+5,0.099,0.929,0.107,4.87,0.079,Chips AND Juice,Chocolate
+6,0.099,0.52,0.191,4.87,0.079,Chocolate,Chips AND Juice
+7,0.061,0.8,0.076,4.19,0.047,Butter AND Milk,Cheese
+8,0.076,0.667,0.115,4.16,0.058,Pasta,Rice
+9,0.099,0.929,0.107,4.05,0.075,Chocolate AND Juice,Chips
+10,0.107,0.609,0.176,3.99,0.08,Soap,Shampoo
+11,0.107,0.7,0.153,3.99,0.08,Shampoo,Soap
+12,0.076,1,0.076,3.85,0.057,Apples AND Milk,Bananas
+13,0.076,0.909,0.084,3.5,0.055,Bananas AND Milk,Apples
+14,0.061,0.8,0.076,3.49,0.044,Pasta AND Rice,Chips
+15,0.13,0.895,0.145,3.45,0.092,Apples AND Juice,Bananas
+16,0.13,0.895,0.145,3.45,0.092,Bananas AND Juice,Apples

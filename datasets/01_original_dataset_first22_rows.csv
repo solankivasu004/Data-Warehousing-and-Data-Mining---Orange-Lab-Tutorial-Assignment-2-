@@ -1,0 +1,23 @@
+Row,TransactionID,Date,Store,CustomerID,Product,Category,Quantity,UnitPrice,TotalSales,PaymentMethod
+1,T1001,2026-03-12,Store B,C014,Apples,Produce,2,1.2,2.4,Cash
+2,T1001,2026-03-12,Store B,C014,Bananas,Produce,3,0.8,2.4,Cash
+3,T1001,2026-03-12,Store B,C014,Juice,Beverages,1,2.6,2.6,Cash
+4,T1002,2026-01-24,Store B,C078,Bread,Bakery,1,1.8,1.8,UPI
+5,T1002,2026-01-24,Store B,C078,Eggs,Dairy,1,3.2,3.2,UPI
+6,T1002,2026-01-24,Store B,C078,Cheese,Dairy,2,3.7,7.4,UPI
+7,T1003,2026-04-25,Store A,C090,Rice,Grocery,1,5.5,5.5,Cash
+8,T1003,2026-04-25,Store A,C090,Milk,Dairy,1,2.5,2.5,Cash
+9,T1003,2026-04-25,Store A,C090,Bread,Bakery,1,1.8,1.8,Cash
+10,T1004,2026-04-08,Store C,C078,Soap,Household,1,1.4,1.4,Card
+11,T1004,2026-04-08,Store C,C078,Shampoo,Household,1,4.8,4.8,Card
+12,T1005,2026-04-07,Store C,C080,Chips,Snacks,3,1.6,4.8,UPI
+13,T1005,2026-04-07,Store C,C080,Chocolate,Snacks,1,2.3,2.3,UPI
+14,T1005,2026-04-07,Store C,C080,Juice,Beverages,1,2.6,2.6,UPI
+15,T1006,2026-02-28,Store A,C013,Apples,Produce,1,1.2,1.2,Cash
+16,T1006,2026-02-28,Store A,C013,Bananas,Produce,1,0.8,0.8,Cash
+17,T1006,2026-02-28,Store A,C013,Juice,Beverages,3,2.6,7.8,Cash
+18,T1007,2026-02-23,Store A,C082,Rice,Grocery,1,5.5,5.5,UPI
+19,T1007,2026-02-23,Store A,C082,Pasta,Grocery,2,2.1,4.2,UPI
+20,T1007,2026-02-23,Store A,C082,Chips,Snacks,1,1.6,1.6,UPI
+21,T1008,2026-06-13,Store B,C042,Bread,Bakery,3,1.8,5.4,UPI
+22,T1008,2026-06-13,Store B,C042,Eggs,Dairy,3,3.2,9.6,UPI

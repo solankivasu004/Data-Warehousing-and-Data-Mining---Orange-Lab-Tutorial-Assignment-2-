@@ -1,0 +1,15 @@
+Row,Outlier,SalesLevel,Product,Quantity,UnitPrice,TotalSales,BasketItems,Mahalanobis
+253,Yes,high,Coffee,2,6.9,13.8,5,12
+24,Yes,high,Coffee,1,6.9,6.9,5,11.34
+327,Yes,high,Coffee,1,6.9,6.9,5,11.34
+294,Yes,high,Coffee,4,6.9,27.6,3,11.22
+105,Yes,high,Coffee,3,6.9,20.7,3,10.43
+86,Yes,high,Coffee,3,6.9,20.7,3,10.43
+383,Yes,high,Coffee,3,6.9,20.7,3,10.43
+222,Yes,high,Coffee,3,6.9,20.7,4,10.17
+318,Yes,high,Coffee,2,6.9,13.8,3,9.66
+45,Yes,high,Coffee,2,6.9,13.8,3,9.66
+49,Yes,high,Coffee,2,6.9,13.8,4,9.44
+193,Yes,high,Coffee,1,6.9,6.9,3,8.92
+277,Yes,high,Coffee,1,6.9,6.9,3,8.92
+121,Yes,high,Coffee,1,6.9,6.9,3,8.92

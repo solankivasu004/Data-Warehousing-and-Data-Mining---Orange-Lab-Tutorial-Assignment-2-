@@ -1,0 +1,8 @@
+metric,outliers,overall_or_inliers
+rows_flagged,40 of 400 (10%),
+mean_UnitPrice,4.47,2.47
+mean_TotalSales,9.99,4.39
+mean_BasketItems,3.85,3.18
+share_high_sales,70%,47.5% (overall)
+coffee_lines_flagged,16 of 16 (price 6.9),
+method,"Covariance estimator, contamination 10%",

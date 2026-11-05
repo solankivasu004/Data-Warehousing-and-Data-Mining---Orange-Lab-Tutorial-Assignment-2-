@@ -1,0 +1,4 @@
+attribute,min,max,method
+Quantity,-2,5,(x-min)/(max-min)
+UnitPrice,0.8,6.9,(x-min)/(max-min)
+TotalSales,-9.6,27.6,(x-min)/(max-min)

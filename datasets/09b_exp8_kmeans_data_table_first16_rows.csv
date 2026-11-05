@@ -1,0 +1,17 @@
+Row,Cluster,SalesLevel,Category,Quantity,UnitPrice,TotalSales,BasketItems,Product
+1,C1,low,Produce,2,1.2,2.4,3,Apples
+2,C1,low,Produce,3,0.8,2.4,3,Bananas
+3,C1,low,Beverages,1,2.6,2.6,3,Juice
+4,C1,low,Bakery,1,1.8,1.8,3,Bread
+5,C1,low,Dairy,1,3.2,3.2,3,Eggs
+6,C1,high,Dairy,2,3.7,7.4,3,Cheese
+7,C3,high,Grocery,1,5.5,5.5,3,Rice
+8,C1,low,Dairy,1,2.5,2.5,3,Milk
+9,C1,low,Bakery,1,1.8,1.8,3,Bread
+10,C1,low,Household,1,1.4,1.4,2,Soap
+11,C3,high,Household,1,4.8,4.8,2,Shampoo
+12,C1,high,Snacks,3,1.6,4.8,3,Chips
+13,C1,low,Snacks,1,2.3,2.3,3,Chocolate
+14,C1,low,Beverages,1,2.6,2.6,3,Juice
+15,C1,low,Produce,1,1.2,1.2,3,Apples
+16,C1,low,Produce,1,0.8,0.8,3,Bananas

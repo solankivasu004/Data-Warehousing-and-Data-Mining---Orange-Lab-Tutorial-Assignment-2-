@@ -1,0 +1,19 @@
+property,value
+dataset_file,retail_transactions_400_rows.csv
+period,2026-01-01 to 2026-06-30
+line_items_rows,400
+transactions,131
+transaction_id_range,T1001-T1131
+stores,4 (A-D)
+customers,71
+products,16
+categories,"7 (Bakery, Beverages, Dairy, Grocery, Household, Produce, Snacks)"
+payment_methods,"Cash, Card, UPI"
+original_attributes,"TransactionID, Date, Store, CustomerID, Product, Category, Quantity, UnitPrice, TotalSales, PaymentMethod"
+derived_attribute_BasketItems,number of line items in the same transaction
+derived_attribute_SalesLevel,high if TotalSales > median 3.6 else low
+SalesLevel_high_count,190
+SalesLevel_low_count,210
+missing_cells_in_original,"3 (1 each in CustomerID, Category, PaymentMethod)"
+invalid_unit_price,99.99 for Juice (normal price 2.6)
+negative_quantity,"1 (returned item, kept as valid record)"

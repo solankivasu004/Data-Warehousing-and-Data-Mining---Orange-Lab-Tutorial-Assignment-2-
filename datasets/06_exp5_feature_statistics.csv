@@ -1,0 +1,9 @@
+Name,Type,Mean,Median,Dispersion,Min,Max,Mode,Missing
+Quantity,numeric,1.84,1,0.585,-2,5,,0
+UnitPrice,numeric,2.67,2.5,0.563,0.8,6.9,,0
+TotalSales,numeric,4.95,3.6,0.884,-9.6,27.6,,0
+BasketItems,numeric,3.25,3,0.255,1,5,,0
+SalesLevel,categorical,,,,,,low,0
+Store,categorical,,,,,,Store A,0
+Category,categorical,,,,,,Dairy,0
+PaymentMethod,categorical,,,,,,Cash,0
